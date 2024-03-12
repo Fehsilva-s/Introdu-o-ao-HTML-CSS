@@ -1,0 +1,120 @@
+
+
+body{
+    background-color: rgb(163, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero{
+    background-image: url(bg-4.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.hero-content{
+    margin: 80px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-content h1{
+   font-size: 56px;
+   text-shadow: 2px 2px 2px black;
+   text-transform: uppercase;
+   color: white;
+}
+    
+.hero-content p{
+    background-color: rgba(0,0,0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    color:white;
+    border-bottom: 2px solid;
+}    
+
+  
+
+article{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(185,190,185);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.hero nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0,.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0,5);
+}
+
+article{
+    background-color:white;
+    padding: 16px;
+    margin-bottom: 32px;
+
+}
+
+main{
+    width: 90%;
+    margin: auto;
+   
+
+}
+
+section{
+    padding-top: 16px;
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0px;
+
+}
+
+a.btn {
+ background-color:#cdc7c3;
+ display: block;
+ padding: 12px;
+ border-radius: 6px;
+ margin-left: auto;
+ width: 80px;
+ text-align: center;
+
+}
+
+.rodape{
+    color: white;
+    background-color: #6b6b6b;
+    padding: 30px;
+    text-align: center;
+}
